@@ -15,10 +15,11 @@ public class Lotto {
         }
     }
 
-    //methods for the 3 numbers array
+    //method for the 3 numbers array
     public int[] getArray() {
         return numbers;
     }
+    //Method to sum the array numbers
     public int getSum() {
         int sum = 0;
         for (int n : numbers) {
@@ -26,7 +27,4 @@ public class Lotto {
         }
         return sum;
     }
-
-
-
 }

@@ -6,6 +6,7 @@ public class Runnable {
     public static void main(String[] args) {
         //using JOptionPan to initialize
         int userNumber = Integer.parseInt(JOptionPane.showInputDialog("Pick from 3 to 27:"));
+
         //if true it will break that is why we set it to false
         boolean userWin = false;
 
@@ -23,6 +24,7 @@ public class Runnable {
                 break;
             }
         }
+        // user do not win
         if (!userWin) {
             JOptionPane.showMessageDialog(null, "Sorry, you lose. The computer wins.");
         }
