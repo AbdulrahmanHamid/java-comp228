@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AbdulrahmanHamid_COMP228Lab2/AbdulrahmanHamid_COMP228Lab2.iml" filepath="$PROJECT_DIR$/AbdulrahmanHamid_COMP228Lab2/AbdulrahmanHamid_COMP228Lab2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaProgramming/JavaProgramming.iml" filepath="$PROJECT_DIR$/JavaProgramming/JavaProgramming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaProgramming/src/JavaProgramming2.iml" filepath="$PROJECT_DIR$/JavaProgramming/src/JavaProgramming2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/java-comp228.iml" filepath="$PROJECT_DIR$/.idea/java-comp228.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab1/lab1.iml" filepath="$PROJECT_DIR$/lab1/lab1.iml" />
+    </modules>
+  </component>
+</project>
