@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+
+
+<?import javafx.scene.control.Button?>
+
+
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.RadioButton?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.CheckBox?>
+<GridPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+          fx:controller="com.example.abdulrahmanhamid_comp228lab4.HelloController" hgap="30" vgap="13"
+          alignment="CENTER" style="-fx-padding: 20;">
+
+    <!-- Set Column Constraints -->
+    <columnConstraints>
+        <ColumnConstraints percentWidth="70"/>
+        <ColumnConstraints percentWidth="70"/>
+        <ColumnConstraints percentWidth="90"/>
+        <ColumnConstraints percentWidth="70"/>
+        <ColumnConstraints percentWidth="30"/>
+    </columnConstraints>
+
+
+    <!-- Labels -->
+    <Label fx:id="nameLabel"  GridPane.rowIndex="0" GridPane.columnIndex="0">Full Name:</Label>
+    <Label fx:id="addressLabel"  GridPane.rowIndex="1" GridPane.columnIndex="0">Address:</Label>
+    <Label fx:id="provinceLabel"  GridPane.rowIndex="2" GridPane.columnIndex="0">Province:</Label>
+    <Label fx:id="cityLabel"  GridPane.rowIndex="3" GridPane.columnIndex="0">City:</Label>
+    <Label fx:id="postalCodeLabel"  GridPane.rowIndex="4" GridPane.columnIndex="0">Postal Code:</Label>
+    <Label fx:id="phoneNumberLabel"  GridPane.rowIndex="5" GridPane.columnIndex="0">Phone Number:</Label>
+    <Label fx:id="emailLabel"  GridPane.rowIndex="6" GridPane.columnIndex="0">Email:</Label>
+    <Label fx:id="extraActivityLabel" GridPane.rowIndex="0" GridPane.columnIndex="2">Extra Activity:</Label>
+    <Label fx:id="selectProgram" GridPane.rowIndex="0" GridPane.columnIndex="3" GridPane.columnSpan="2">Select Program:</Label>
+
+    <!-- Input Fields -->
+    <TextField fx:id="nameField" promptText="Full Name" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+    <TextField fx:id="addressField" promptText="Address" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+    <TextField fx:id="provinceField" promptText="Province" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+    <TextField fx:id="cityField" promptText="City" GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+    <TextField fx:id="postalCodeField" promptText="Postal Code" GridPane.rowIndex="4" GridPane.columnIndex="1"/>
+    <TextField fx:id="phoneNumberField"  promptText="Phone Number" GridPane.rowIndex="5" GridPane.columnIndex="1" />
+    <TextField fx:id="emailField" promptText="Email" GridPane.rowIndex="6" GridPane.columnIndex="1"/>
+
+    <!-- CheckBoxes -->
+    <CheckBox fx:id="studentCouncilCheckBox" GridPane.rowIndex="1" GridPane.columnIndex="2">Student Council</CheckBox>
+    <CheckBox fx:id="volunteerWorkCheckBox" GridPane.rowIndex="2" GridPane.columnIndex="2">volunteer Work</CheckBox>
+
+    <!-- Radio Buttons when choosing one it changes the combobox output -->
+    <RadioButton fx:id="button1"  onAction="#toggle" GridPane.rowIndex="1" GridPane.columnIndex="3" GridPane.columnSpan="2">Computer Science</RadioButton>
+    <RadioButton fx:id="button2"  onAction="#toggle" GridPane.rowIndex="1" GridPane.columnIndex="4"  GridPane.columnSpan="2" >Business</RadioButton>
+
+    <!-- courses ComboBox -->
+    <ComboBox fx:id="coursesComboBox" promptText="Select Courses"  onAction="#CourseSelection" GridPane.rowIndex="2" GridPane.columnIndex="3" GridPane.columnSpan="3" prefWidth="200" />
+    <!-- Adding the courses selected to the list view-->
+
+    <ListView fx:id="listView" GridPane.rowIndex="3" GridPane.columnIndex="3" GridPane.columnSpan="3" GridPane.rowSpan="4"/>
+    <!-- DISPLAY Button -->
+    <Button fx:id="submitButton" text="Display" onAction="#onSubmitButtonClick" GridPane.rowIndex="7" GridPane.columnIndex="2" prefWidth="100"/>
+
+    <!-- Message text area -->
+    <TextArea fx:id="messageArea" GridPane.rowIndex="8" GridPane.columnIndex="0" GridPane.columnSpan="6"  wrapText="true" style="-fx-font-size: 12px; "/>
+</GridPane>

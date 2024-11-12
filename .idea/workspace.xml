@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6b9daab-b915-4462-ab52-a967be65b340" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/java-comp228.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaProgramming/src/JavaProgramming2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaProgramming/src/JavaProgramming2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AbdulrahmanHamid_COMP228Lab2/exercise1/Runnable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AbdulrahmanHamid_COMP228Lab2/exercise1/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AbdulrahmanHamid_COMP228Lab2/exercise2/Lotto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AbdulrahmanHamid_COMP228Lab2/exercise2/Runnable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AbdulrahmanHamid_COMP228Lab2/exercise3/OverloadingMethods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab1/Runnable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab1/Singer.class" beforeDir="false" />
-    </list>
+    <list default="true" id="e6b9daab-b915-4462-ab52-a967be65b340" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,25 +21,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Application.OverloadingMethods.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Runnable (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Runnable.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/abdul/OneDrive/Desktop/semester3/Java Programming/java-comp228&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.OverloadingMethods.executor": "Run",
+    "Application.Runnable (1).executor": "Run",
+    "Application.Runnable.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/abdul/OneDrive/Desktop/semester3/Java Programming/java-comp228/AbdulrahmanHamid_COMP228Lab3",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.OverloadingMethods">
     <configuration name="OverloadingMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercise3.OverloadingMethods" />
@@ -115,6 +101,7 @@
       <workItem from="1728408288646" duration="5983000" />
       <workItem from="1728789702032" duration="2790000" />
       <workItem from="1728962419523" duration="30000" />
+      <workItem from="1730847769457" duration="23000" />
     </task>
     <servers />
   </component>
