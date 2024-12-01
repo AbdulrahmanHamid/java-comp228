@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+
+
+<?import javafx.scene.control.Button?>
+
+
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.control.TextField?>
+
+<?import javafx.scene.control.DatePicker?>
+<GridPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+          fx:controller="com.example.abdulrahmanhamid_comp228lab5.PlayerGameController" hgap="30" vgap="13"
+          alignment="CENTER" style="-fx-padding: 20;">
+
+  <!-- Set Column Constraints -->
+  <columnConstraints>
+    <ColumnConstraints percentWidth="70"/>
+    <ColumnConstraints percentWidth="90"/>
+    <ColumnConstraints percentWidth="20"/>
+    <ColumnConstraints percentWidth="60"/>
+    <ColumnConstraints percentWidth="50"/>
+    <ColumnConstraints percentWidth="100"/>
+  </columnConstraints>
+
+
+  <!-- Labels -->
+  <Label fx:id="playerInformationLabel" GridPane.rowIndex="0" GridPane.columnIndex="0" GridPane.columnSpan="2" style="-fx-font-weight: bold">Player Information:</Label>
+  <Label fx:id="firstNameLabel"  GridPane.rowIndex="1" GridPane.columnIndex="0">First Name:</Label>
+  <Label fx:id="lastNameLabel"  GridPane.rowIndex="2" GridPane.columnIndex="0">Last Name:</Label>
+  <Label fx:id="addressLabel"  GridPane.rowIndex="3" GridPane.columnIndex="0">Address:</Label>
+  <Label fx:id="provinceLabel"  GridPane.rowIndex="4" GridPane.columnIndex="0">Province:</Label>
+  <Label fx:id="postalCodeLabel"  GridPane.rowIndex="5" GridPane.columnIndex="0">Postal Code:</Label>
+  <Label fx:id="phoneNumberLabel"  GridPane.rowIndex="6" GridPane.columnIndex="0">Phone Number:</Label>
+  <Label fx:id="updateByIdLabel" GridPane.rowIndex="0" GridPane.columnIndex="3" GridPane.columnSpan="2" style="-fx-font-weight: bold">Enter Player ID To Update:</Label>
+  <Label fx:id="gameInformationLabel" GridPane.rowIndex="3" GridPane.columnIndex="3" GridPane.columnSpan="2" style="-fx-font-weight: bold">Game Information:</Label>
+  <Label fx:id="gameNameLabel" GridPane.rowIndex="4" GridPane.columnIndex="3">Game Name:</Label>
+  <Label fx:id="gameScoreLabel" GridPane.rowIndex="5" GridPane.columnIndex="3" >Score:</Label>
+  <Label fx:id="gameDatePlayedLabel" GridPane.rowIndex="6" GridPane.columnIndex="3" >Date Played:</Label>
+
+  <!-- Input Fields -->
+  <TextField fx:id="firstNameField" promptText="First Name" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+  <TextField fx:id="lastNameField" promptText="Last Name" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+  <TextField fx:id="addressField" promptText="Address" GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+  <TextField fx:id="provinceField" promptText="Province" GridPane.rowIndex="4" GridPane.columnIndex="1"/>
+  <TextField fx:id="postalCodeField" promptText="Postal Code" GridPane.rowIndex="5" GridPane.columnIndex="1"/>
+  <TextField fx:id="phoneNumberField"  promptText="Phone Number" GridPane.rowIndex="6" GridPane.columnIndex="1" />
+  <TextField fx:id="updateByIdField"  promptText="Player Id" GridPane.rowIndex="0" GridPane.columnIndex="5" />
+  <TextField fx:id="gameNameField"  promptText=" Game Name" GridPane.rowIndex="4" GridPane.columnIndex="4" GridPane.columnSpan="2" />
+  <TextField fx:id="gameScoreField"  promptText=" Score" GridPane.rowIndex="5" GridPane.columnIndex="4" GridPane.columnSpan="2" />
+
+  <!-- Date Picker for Date Played -->
+  <DatePicker fx:id="gameDatePlayedField" GridPane.rowIndex="6" GridPane.columnIndex="4" GridPane.columnSpan="2" prefWidth="Infinity"/>
+
+  <!-- Buttons for all the other functionalities  -->
+  <Button fx:id="updateByIdButton" text="Update" onAction="#onUpdateByIdButton" GridPane.rowIndex="1" GridPane.columnIndex="4" GridPane.columnSpan="2" prefWidth="150"/>
+  <Button fx:id="createNewPlayerButton" text="Create New Game Player " onAction="#onCreateNewGamePlayerButton" GridPane.rowIndex="9" GridPane.columnIndex="3"  GridPane.columnSpan="2" prefWidth="200"/>
+  <Button fx:id="playerInformationButton" text="Get Players ID" onAction="#onCheckPlayerInformationButton" GridPane.rowIndex="9" GridPane.columnIndex="0" GridPane.columnSpan="2" prefWidth="Infinity"/>
+  <!-- DISPLAY Button -->
+  <Button fx:id="submitButton" text="Display All" onAction="#onDisplayAllButton" GridPane.rowIndex="9" GridPane.columnIndex="5" prefWidth="150"/>
+
+
+</GridPane>
